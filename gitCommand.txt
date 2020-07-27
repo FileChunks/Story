@@ -1,0 +1,13 @@
+//while working on local machine
+
+git init			//to initialize local repository
+git status			//to see the status of all file
+git add <fileName>		//to push the file in intermidiate stage of repo
+git commit -m "Message"		//to commit and adding description while commiting
+git log				//to see all the commit that are made on this repo
+git diff			//to see differnece in present and previous file(while not commited)
+
+//while working on remote repository
+
+git remote add <anyName rec-origin> <remote repository address>		//adding a remote repository
+git push -u origin master						//pushing to remote repository at master branch
