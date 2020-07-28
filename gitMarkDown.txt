@@ -1,0 +1,88 @@
+
+//For heading
+# 	h1
+## 	h2
+###	h3
+####	h4
+#####	h5
+######	h6
+
+
+//For italics type
+*<text>*	for italics
+	or
+_<text>_	for italics
+
+to use the star just use '\*'
+
+
+//For storng type
+**<text>**	for strong
+	or
+__<text>__	for strong
+
+
+//For strikethrough
+~~<text>~~
+
+
+//For horizontal line
+
+---	or	___
+
+
+//Blockquote
+> any text overhere
+
+
+//Links
+[text](link)	for simple link direct
+
+[text](link "some header")	it show some header when hover over it
+
+
+//List
+for unorderd list
+
+* text1
+* text2			for nested list
+	* inner list
+
+for orderd list
+
+1. text1
+1. text2
+
+
+//For inline code block
+`<code over here>`
+
+
+//For image
+![any text](logo link)
+
+
+//GitHub Markdown
+//Code block
+```bash			//specifying the code return on not that important by give some cool color highlight
+	npm install 
+	npm start
+```
+
+```javascript
+	function add(n1, n2){
+		return n1 + n2;
+	}
+```
+
+
+//For Table
+|name	|email		|
+|-------|---------------|
+|sonu	|sfaf@gmail.com	|
+
+
+//For task list
+* [x] text1
+* [x] text2
+* [ ] text3
