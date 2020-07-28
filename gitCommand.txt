@@ -6,8 +6,14 @@ git add <fileName>		//to push the file in intermidiate stage of repo
 git commit -m "Message"		//to commit and adding description while commiting
 git log				//to see all the commit that are made on this repo
 git diff			//to see differnece in present and previous file(while not commited)
+git checkout <fileName>		//to retrive back the last save file in reposity
 
 //while working on remote repository
 
 git remote add <anyName rec-origin> <remote repository address>		//adding a remote repository
 git push -u origin master						//pushing to remote repository at master branch
+git clone								//clone repository
+git branch branchName							//create a new brach
+git branch								//to see all existing branch
+git checkout branchName							//to switch branch
+git merge branchName							//branch which u want to merge to(:q! or :qa!)
